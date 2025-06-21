@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>Pet Store</title> 
+
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head> 
+<body> 
+
+    <header> 
+
+        <h1>Welcome to Our Pet Store</h1> 
+
+        <nav> 
+
+            <a href="index.html">Home</a> 
+
+            <a href="pets.html">Pets</a> 
+
+            <a href="#contact">Contact</a> 
+
+        </nav> 
+
+    </header> 
+
+ 
+
+    <main> 
+
+        <section class="featured"> 
+
+            <h2>All Pets</h2> 
+            <div>
+                Type: 
+                <input type="checkbox" id="dog" name="pet-type" value="Dog" checked>
+                <label for="dog">Dog</label>
+
+                <input type="checkbox" id="cat" name="pet-type" value="Cat" checked>
+                <label for="cat">Cat</label>
+
+                <input type="checkbox" id="bird" name="pet-type" value="Bird" checked>
+                <label for="bird">Bird</label>
+
+                <input type="checkbox" id="capybara" name="pet-type" value="Capybara" checked>
+                <label for="capybara">Capybara</label>
+
+
+            </div>
+
+            <div class="pet-list" id="pet-list">
+                <!-- <div class="pet">
+                    <img src="img/dog.jpg" alt="Cute Dog">
+                    <p>Charlie - Golden Retriever</p>
+                    <button onclick="adoptPet()">Adopt Now</button>
+                </div>
+                <div class="pet">
+                    <img src="img/cat.webp" alt="Cute Cat">
+                    <p>Milo - British Shorthair</p>
+                    <button onclick="adoptPet()">Adopt Now</button>
+                </div> -->
+            </div>
+
+            </div> 
+
+        </section> 
+
+       
+
+    </main> 
+    <footer id = "contact" > 
+        <div style = "margin-right: 20px;">
+            <p>
+                123 Pet Street, Pet City, Bangkok
+                 
+            </p>
+            <p>
+                Contact us at: <strong>info@petstore.com</strong>
+            </p>
+            
+        </div>
+
+       
+
+    </footer> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script> 
+    <script src="loadpet.js"></script>
+
+</body> 
+
+</html> 
+
