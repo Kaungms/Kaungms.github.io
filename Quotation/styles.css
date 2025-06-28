@@ -1,0 +1,118 @@
+/* Table styling */
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: rgb(184, 212, 231);
+    color: darkblue;
+    border: solid #000000 1px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+td {
+    vertical-align: top;
+    padding: 8px;
+}
+
+#sub-total {
+    border-top: solid #000 2px;
+}
+
+#bottom-line {
+    border-bottom: solid #000 2px;
+    font-weight: bold;
+}
+
+.data {
+    border-left: solid #000000 1px;
+    border-right: solid #000000 1px;
+}
+
+.data2 {
+    border-right: solid #000000 1px;
+}
+
+/* Text styling */
+p.i {
+    font-style: italic;
+}
+
+.r {
+    text-align: right;
+}
+
+.cen {
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+}
+
+.colo {
+    font-weight: bold;
+    color: darkblue;
+}
+
+.thick {
+    font-weight: bold;
+}
+
+.tab { 
+    display: inline-block; 
+    margin-left: 40px; 
+}
+
+/* Button styling */
+.delete-btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.delete-btn:hover {
+    background-color: #c9302c;
+}
+
+/* Modal enhancements */
+.modal-body table td {
+    padding: 10px;
+    border: none;
+}
+
+.modal-body table td:first-child {
+    font-weight: bold;
+    width: 30%;
+}
+
+/* Company header styling */
+.company-header {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    table {
+        font-size: 14px;
+    }
+    
+    .delete-btn {
+        padding: 2px 6px;
+        font-size: 10px;
+    }
+}
